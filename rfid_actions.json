@@ -1,0 +1,40 @@
+[
+	{
+	  "name": "read",
+	  "type": "rfid_action",
+	  "description": "Lire une carte rfid",
+	  "options": [
+  		{
+		  "name": "arduino",
+		  "desc": "Arduino cible",
+		  "type": "arduino"
+		},
+		{
+		  "name": "blockRead",
+		  "desc": "bloc à lire",
+		  "type": "string",
+		  "default" : "0"
+		}
+	  ]
+	},
+	
+	{
+	  "name": "read&write",
+	  "type": "rfid_action",
+	  "description": "Lire et écrire sur une carte",
+	  "options": [
+    		{
+		  "name": "arduino",
+		  "desc": "Arduino cible",
+		  "type": "arduino"
+		},
+		{
+		  "name": "blockRead",
+		  "desc": "bloc à lire",
+		  "type": "string",
+		  "default": "0"
+		}
+
+	  ]
+	}
+  ]
